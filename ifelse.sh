@@ -1,8 +1,10 @@
 echo "Please Enter Your Course"
 read ui
-read c="BSIT"
-if [ $ui -eq $c ]; then
-  echo "Correct Course"
-else
-  echo "Incorrect Course"
-fi
+case $ui in
+BSIT)
+  echo "Correct Course!"
+  ;;
+*)
+  echo "Incorrect Course!"
+  ;;
+esac
