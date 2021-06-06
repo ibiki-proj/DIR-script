@@ -1,12 +1,12 @@
-echo "enter something!"
+echo "Enter Something!"
 read es
 rr=""
 while [ "$rr" != "$es" ]
 do
-  echo "remember it!"
+  echo "Retype!"
   read rr
   if [ "$rr" != "$es" ]; then
-  echo "remember it!!!!!!!!"
+  echo "REMEMBER IT!!!!!!!!"
   fi
 done
   echo "Good!"
