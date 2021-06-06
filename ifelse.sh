@@ -7,5 +7,6 @@ do
   read rr
   if [ "$rr" != "$es" ]; then
   echo "remember it!!!!!!!!"
+  fi
 done
   echo "Good!"
