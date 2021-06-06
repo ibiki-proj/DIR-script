@@ -1,7 +1,11 @@
+echo "enter something!"
+read es
 rr=""
-while [ "$rr" != "end" ]
+while [ "$rr" != "$es" ]
 do
-  echo "Type all you want else type end"
+  echo "remember it!"
   read rr
-  echo "nice  typing!"
+  if [ "$rr" != "$es" ]
+  echo "remember it!!!!!!!!"
 done
+  echo "Good!"
