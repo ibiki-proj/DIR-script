@@ -1,6 +1,6 @@
 echo "Please Enter Your Course"
-c="BSIT"
 read ui
+c="BSIT"
 if [ $c -eq $ui ]; then
   echo "Correct Course"
 else
