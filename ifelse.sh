@@ -7,4 +7,4 @@ BSIT)
 *)
   echo "Incorrect Course!"
   ;;
-esac
+bash ifelse.sh
