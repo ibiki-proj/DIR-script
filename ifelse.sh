@@ -7,4 +7,5 @@ do
   read di
   if [ "$di" != "$ui" ]; then
   echo "Incorrect!"
+  fi
 done
