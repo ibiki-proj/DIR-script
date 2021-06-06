@@ -5,7 +5,7 @@ while [ "$rr" != "$es" ]
 do
   echo "remember it!"
   read rr
-  if [ "$rr" != "$es" ]
+  if [ "$rr" != "$es" ]; then
   echo "remember it!!!!!!!!"
 done
   echo "Good!"
