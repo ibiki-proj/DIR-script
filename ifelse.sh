@@ -1,4 +1,4 @@
-ui
+ui=""
 while [ "$ui" != "bye" ]
 do
   echo "Please type something in (bye to quit)"
