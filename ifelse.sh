@@ -1,3 +1,3 @@
 echo "Please Enter Your Course"
-let c = "BSIT"
+let "c = BSIT"
 echo $c
