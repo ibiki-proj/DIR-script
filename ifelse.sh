@@ -1,7 +1,9 @@
-ui=""
-while [ "$ui" != "bye" ]
+echo "Enter Your Course!"
+read ui
+di=""
+while [ "$di" != "$ui" ]
 do
-  echo "Please type something in (bye to quit)"
-  read ui
-  echo "You typed: $ui"
+  echo "Type Your Username"
+  read di
+  echo "You typed: $ui $di"
 done
