@@ -1,12 +1,7 @@
-echo "Enter Your Course!"
-read ui
-di=""
-while [ "$di" != "$ui" ]
+rr=""
+while [ "$rr" != "end"]
 do
-  echo "Type Your Course Again!"
-  read di
-  if [ "$di" != "$ui" ]; then
-  echo "Incorrect!"
-  fi
+  echo "Type all you want else type end"
+  read rr
+  echo "nice  typing!"
 done
-  echo "Correct!"
