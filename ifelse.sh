@@ -1,3 +1,3 @@
 echo "Please Enter Your Course"
-c = "BSIT"
+c="BSIT"
 echo $c
