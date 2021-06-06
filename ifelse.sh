@@ -1,10 +1,7 @@
-echo "Please Enter Your Course"
-read ui
-case $ui in
-BSIT)
-  echo "Correct Course!"
-  ;;
-*)
-  echo "Incorrect Course!"
-  ;;
-bash ifelse.sh
+INPUT_STRING=hello
+while [ "$INPUT_STRING" != "bye" ]
+do
+  echo "Please type something in (bye to quit)"
+  read INPUT_STRING
+  echo "You typed: $INPUT_STRING"
+done
