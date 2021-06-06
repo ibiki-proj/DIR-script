@@ -1,7 +1,7 @@
-INPUT_STRING=hello
-while [ "$INPUT_STRING" != "bye" ]
+ui
+while [ "$ui" != "bye" ]
 do
   echo "Please type something in (bye to quit)"
-  read INPUT_STRING
-  echo "You typed: $INPUT_STRING"
+  read ui
+  echo "You typed: $ui"
 done
