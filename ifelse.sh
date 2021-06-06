@@ -5,5 +5,7 @@ while [ "$di" != "$ui" ]
 do
   echo "Type Your Course Again!"
   read di
-  echo "You typed: $ui $di"
-done
+  if [ "$di" == "$ui" ]; then
+    done
+  else
+    do
