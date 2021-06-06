@@ -8,4 +8,5 @@ do
   if [ "$di" != "$ui" ]; then
   echo "Incorrect!"
   fi
+  echo "Correct!"
 done
